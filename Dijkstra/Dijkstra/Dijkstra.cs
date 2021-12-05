@@ -36,6 +36,7 @@ namespace Dijkstra.Dijkstra
                                 {
                                     _graph.GetNode(s.Substring(1, 1)).Distance = _graph.GetNode(n.Name).Distance + _graph.Connections[s];
                                     _graph.GetNode(s.Substring(1, 1)).Previous = n.Name;
+                                    _graph.GetNode(s.Substring(1, 1)).Iterated = false;
                                 }
                             }
                         }

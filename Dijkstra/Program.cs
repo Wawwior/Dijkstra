@@ -6,7 +6,7 @@ namespace Dijkstra
     {
         public static void Main(string[] args)
         {
-            long time = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+            var time = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
             Console.WriteLine(string.Join(Environment.NewLine, new Dijkstra.Dijkstra(Example()).FindPaths("A")));
             Console.WriteLine(new Dijkstra.Dijkstra(Example()).FindPath("A", "G"));
             Console.WriteLine(DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond - time);
@@ -27,7 +27,7 @@ namespace Dijkstra
             graph.AddConnection("AB", 1);
             graph.AddConnection("AC", 1);
             graph.AddConnection("AH", 2);
-            graph.AddConnection("BE", 1);
+            graph.AddConnection("BE", 2);
             graph.AddConnection("CD", 7);
             graph.AddConnection("CF", 6);
             graph.AddConnection("DG", 3);

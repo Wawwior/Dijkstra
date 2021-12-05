@@ -1,0 +1,6 @@
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\bin\Release\Dijkstra.exe
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\bin\Release\Dijkstra.pdb
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\obj\Release\Dijkstra.csproj.AssemblyReference.cache
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\obj\Release\Dijkstra.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\obj\Release\Dijkstra.exe
+E:\Coding\C#\Projects\Dijkstra\Dijkstra\obj\Release\Dijkstra.pdb
