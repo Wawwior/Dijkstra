@@ -7,15 +7,15 @@ namespace Dijkstra
         public static void Main(string[] args)
         {
             var time = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            Console.WriteLine(string.Join(Environment.NewLine, new Dijkstra.Dijkstra(Example()).FindPaths("A")));
-            Console.WriteLine(new Dijkstra.Dijkstra(Example()).FindPath("A", "G"));
+            Console.WriteLine(string.Join(Environment.NewLine, new Dijkstra.Algorithm(Example()).FindPaths("A")));
+            Console.WriteLine(new Dijkstra.Algorithm(Example()).FindPath("A", "G"));
             Console.WriteLine(DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond - time);
             Console.ReadKey();
         }
 
-        private static Graph.Graph Example()
+        private static Dijkstra.Graph Example()
         {
-            Graph.Graph graph = new Graph.Graph();
+            Dijkstra.Graph graph = new Dijkstra.Graph();
             graph.AddNode("A");
             graph.AddNode("B");
             graph.AddNode("C");
